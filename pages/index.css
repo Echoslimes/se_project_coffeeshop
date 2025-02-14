@@ -145,6 +145,78 @@
 
 /* Recipe content ends here*/
 .reservation {
+  background: center / cover no-repeat #d9e7ff
+    url(../images/background_reservation.svg);
+  padding: 100px 0 120px;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  color: #000000;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form__label {
+  color: #000000;
+  font-weight: 500;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  margin: 8px 0 32px;
+  border: 1px solid #838383;
+  border-radius: 4px;
+  color: #838383;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__button {
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+  padding: 20px 0;
+  margin-bottom: 32px;
+  background-color: #1878dc;
+  color: #fff;
+  font-weight: 500;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.form__checkbox:checked {
+  -webkit-appearance: none;
+  background: center no-repeat #1878dc url(../images/check.svg);
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
 }
 
 /* Reservation content ends here*/
