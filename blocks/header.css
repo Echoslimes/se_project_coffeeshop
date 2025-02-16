@@ -6,10 +6,11 @@
   padding: 30px 80px 40px 80px;
   background: center / cover no-repeat url(../images/background_header.svg);
   height: 800px;
+  z-index: 1;
 }
 
 .header__title {
-  color: #000000;
+  color: #000;
   max-width: 729px;
   margin: 183px 0 0 0;
   font-weight: 500;
@@ -43,6 +44,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
