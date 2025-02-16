@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- changing cursor to text when hovering date and time
+- creating a more 'stylized' menu using borders and tinted background color/background image
+- add image within large negative space at bottom-center of about section guiding viewer to shop location within library
